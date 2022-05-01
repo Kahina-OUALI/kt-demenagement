@@ -1,0 +1,61 @@
+.modal {
+    border: none !important;
+    .modal-content {
+        padding: 15px;
+        background-color: $black-one;
+        .modal-header {
+            border: none !important;
+            h5 {
+                @extend %title-modal;
+            }
+            .button-close {
+                width: 1em;
+                height: 1em;
+                border: none;
+                padding: 0.25em 0.25em;
+                box-sizing: content-box;
+                i {
+                    font-size: 15px;
+                    color: $white-one !important;
+                }
+            }
+        }
+        .modal-body {
+            p {
+                @extend %text-modal;
+            }
+            label {
+                @extend %label;
+            }
+            input[type="text"],
+            input[type="password"] {
+                @extend %input;
+            }
+            input::placeholder {
+                font-size: 13px;
+                color: $white-one;
+            }
+            .checkbox {
+                label {
+                    font-size: 12px;
+                    @extend %text-modal;
+                }
+            }
+            .mdp {
+                a {
+                    color: $white-two;
+                    @extend %text-modal;
+                    text-decoration: none;
+                    i {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .btn-two {
+                width: 100%;
+                margin-bottom: 15px;
+                @extend %button-two;
+            }
+        }
+    }
+}
