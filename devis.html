@@ -163,7 +163,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6" id="div-devis"></div>
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-12 revealAnimation fade-left">
                         <div class="content">
                             <div class="text">
                                 <h1>Faire son devis</h1>
@@ -175,9 +175,9 @@
         </section>
         <section class="formulaire-devis" id="formulaire-devis">
             <div class="container">
-                <form action="" method="post">
+                <form action="" method="post" class="revealAnimation fade-bottom">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12 revealAnimation fade-bottom">
+                        <div class="col-lg-6 col-md-12">
                             <label for="exampleInput" class="form-label">Nom</label>
                             <input type="text" class="form-control" name="nom" id="nom" placeholder="Entrez votre nom de famille" required>
                             <br>
@@ -200,7 +200,7 @@
                                 <option value="5">Portugais</option>
                             </select>
                         </div>
-                        <div class="col-lg-6 col-md-12 revealAnimation fade-bottom">
+                        <div class="col-lg-6 col-md-12">
                             <label for="exampleInput" class="form-label">Date de votre déménagement</label>
                             <input type="date" class="form-control" name="date" id="exampleInput" value="18/04/2022" min="19/04/2022"
                             max="31/12/2022" required>
@@ -221,22 +221,18 @@
                                 <option value="2">Non</option>
                             </select>
                         </div>
-                        <div class="col-lg-12 col-md-12 revealAnimation fade-bottom">
+                        <div class="col-lg-12 col-md-12">
                             <br>
                             <br>
                             <label for="exampleInput" class="form-label">Autres précisions</label>
                             <textarea class="form-control" name="precisions" id="precisions" cols="30" rows="10" placeholder="Vos précisions" required></textarea>
                             <br>
                         </div>
+                        <div class="col-lg-12 col-md-12">
+                            <button type="submit" class="btn-two btn-sm">Envoyer mon devis</button>
+                        </div>
                     </div>
                 </form>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 revealAnimation fade-bottom">
-                        <form method="post">
-                            <button type="submit" class="btn-two btn-sm">Envoyer mon devis</button>
-                          </form>
-                    </div>
-                </div>
             </div>
         </section>
     </main>
@@ -321,6 +317,9 @@
             </a>
             <a href="https://www.linkedin.com/in/kahina-ouali-pro/">
                 <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://oualikahina.com/">
+                <i class="fa-brands fa-safari"></i>
             </a>
         </div>
     </div>
