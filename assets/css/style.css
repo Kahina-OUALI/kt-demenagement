@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #090808;
+}
+
+header .navbar-dark .navbar-nav .dropdown-menu.show li .dropdown-item, header .navbar-dark .navbar-nav .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F4F4F4;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  font-family: "Anaheim", sans-serif;
+}
+
+footer .links-aide a {
+  font-size: 13.2px;
+  color: #F4F1F1;
+  text-align: justify;
+  text-decoration: none;
+  font-family: "Anaheim", sans-serif;
+}
+footer .links-aide a:hover {
+  color: #F4F1F1;
+}
+
+footer .copy .links a {
+  font-size: 12px;
+  color: #6A8796;
+  margin-left: 15px;
+  text-align: justify;
+  text-decoration: none;
+  font-family: "Anaheim", sans-serif;
+}
+
+footer h3,
+footer h4,
+footer h5 {
+  font-size: 15px;
+  color: #F4F4F4;
+  font-weight: 600;
+  padding-left: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-left: 3px solid #6A8796;
+  font-family: "Alef", sans-serif;
+}
+
+footer p {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: justify;
+  color: #F4F1F1;
+  font-family: "Anaheim", sans-serif;
+}
+footer p i {
+  margin-right: 10px;
+}
+
+.body-accueil {
+  height: 180vh;
+  min-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-image: url("../img/header/banniere-header.png");
+}
+
+header {
+  background-color: #090808a6;
+}
+header .info-header {
+  padding: 10px 0px 5px 0px;
+  border-bottom: 0.5px solid #f4f1f16b;
+}
+header .info-header ul li {
+  float: left;
+  position: relative;
+  padding-right: 24px;
+  margin: 10px 20px 10px 0px;
+  border-right: 1px solid #aaaaaa;
+}
+header .info-header span {
+  text-align: justify;
+}
+header .info-header span h3,
+header .info-header span h4,
+header .info-header span h5,
+header .info-header span h6 {
+  color: #F4F1F1;
+  font-size: 10px;
+  font-family: "Anaheim", sans-serif;
+}
+header .info-header .res ul {
+  float: right;
+}
+header .info-header .res ul li {
+  padding-right: 10px;
+  border-right: none;
+  margin: 0px 0px 0px 0px;
+}
+header .info-header .res ul li a i {
+  color: #F4F1F1;
+  font-size: 10px;
+}
+@media screen and (max-width: 750px) {
+  header .info-header .res {
+    margin-top: -40px;
+  }
+}
+header h1 {
+  color: #F4F1F1;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Alef", sans-serif;
+}
+header h1 .title-site {
+  color: #BCD8E6;
+}
+header .navbar-dark {
+  padding: 10px 0px 10px 0px;
+}
+header .navbar-dark .navbar-nav .nav-link.active {
+  color: #BCD8E6;
+  font-weight: 600;
+}
+header .navbar-dark .navbar-nav .dropdown-menu.show {
+  border: none !important;
+  background-color: #090808a6 !important;
+}
+header .navbar-dark .navbar-nav .dropdown-menu.show li hr {
+  color: #F4F4F4;
+}
+header .navbar-dark .navbar-nav .dropdown-menu.show li .dropdown-item {
+  font-size: 11px !important;
+}
+header .navbar-dark .navbar-nav .dropdown-menu.show li .dropdown-item:hover {
+  background-color: transparent;
+}
+header .navbar-dark .navbar-nav .dropdown-menu.show li:hover {
+  background-color: #6A8796;
+}
+header .navbar-dark form input {
+  color: #F4F1F1;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  border: 0.5px solid #f4f1f16b;
+  background-color: transparent !important;
+  font-family: "Anaheim", sans-serif;
+}
+header .navbar-dark form input::placeholder {
+  color: #F4F1F1;
+}
+@media screen and (max-width: 780px) {
+  header .navbar-dark .navbar-toggler {
+    color: #BCD8E6 !important;
+    border-color: #BCD8E6 !important;
+  }
+  header .navbar-dark .navbar-toggler .icon-nav i {
+    color: #D6E2E8;
+  }
+}
+
+footer {
+  padding-bottom: 50px;
+  background-color: #090808;
+}
+footer h3,
+footer h4,
+footer h5 {
+  margin-bottom: 25px;
+}
+footer h6 {
+  font-size: 12px;
+  color: #F4F1F1;
+  text-align: justify;
+  text-decoration: none;
+  font-family: "Anaheim", sans-serif;
+}
+footer p .text-end {
+  float: right;
+  color: #6A8796;
+}
+footer .copy {
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 0.5px solid #f4f1f16b;
+}
+@media screen and (max-width: 480px) {
+  footer .copy .links a {
+    margin: 15px 15px 0px 0px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  footer .copy .links {
+    margin-top: -8px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer h4 {
+    margin-top: 10px;
+  }
+  footer h5 {
+    margin-top: 15px;
+  }
+  footer h6 {
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 780px) {
+  footer .text-1 {
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  footer {
+    padding-bottom: 40px;
+  }
+}
+
+#ButtonTop {
+  right: 25px;
+  bottom: 25px;
+  z-index: 100;
+  border: none;
+  outline: none;
+  display: none;
+  padding: 15px;
+  cursor: pointer;
+  position: fixed;
+  color: #F4F1F1;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: #090808;
+}
+#ButtonTop:hover {
+  background-color: #BCD8E6;
+}
+
+/*# sourceMappingURL=style.css.map */

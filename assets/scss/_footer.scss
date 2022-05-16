@@ -1,0 +1,66 @@
+footer {
+    padding-bottom: 50px;
+    background-color: $black;
+    h3,
+    h4,
+    h5 {
+        @extend %title-footer;
+        margin-bottom: 25px
+    }
+    h6 {
+        font-size: 12px;
+        color: $white;
+        text-align: justify;
+        text-decoration: none;
+        font-family: $text;
+    }
+    p {
+        @extend %text-footer;
+        .text-end {
+            float: right;
+            color: $blue-one;
+        }
+    }
+    .links-aide {
+        a {
+            @extend %a-footer;
+        }
+    }
+    .copy {
+        margin-top: 35px;
+        padding-top: 25px;
+        border-top: 0.5px solid #f4f1f16b;
+        .links {
+            a {
+                @extend %a-copyright;
+                @media screen and (max-width: $layout-breakpoints-xxs) {
+                    margin: 15px 15px 0px 0px;
+                }
+            }
+            @media screen and (max-width: $layout-breakpoints-sm) {
+                margin-top: -8px;
+            }
+        }
+            
+    }
+    @media screen and (max-width: $layout-breakpoints-xxs) {
+        h4 {
+            margin-top: 10px;
+        }
+        h5 {
+            margin-top: 15px;
+        }
+        h6 {
+            line-height: 22px;
+            margin-bottom: 15px;
+        }
+    }
+    @media screen and (max-width: $layout-breakpoints-xsm) {
+        .text-1 {
+            margin-bottom: 25px;
+        }
+    }
+    @media screen and (max-width: $layout-breakpoints-sm) {
+        padding-bottom: 40px;
+    }
+}

@@ -1,0 +1,18 @@
+#ButtonTop {
+    right: 25px;
+    bottom: 25px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    display: none;
+    padding: 15px;
+    cursor: pointer;
+    position: fixed;
+    color: $white;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: $black;
+    &:hover {
+        background-color: $blue;
+    }
+}
