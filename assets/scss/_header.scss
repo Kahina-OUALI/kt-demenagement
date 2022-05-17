@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
-    background-image: url("../img/header/banniere-header.png");
+    background-image: url("../img/header/etranger-banner.png");
 }
 
 header {
@@ -21,6 +21,10 @@ header {
                 padding-right: 24px;
                 margin: 10px 20px 10px 0px;
                 border-right: 1px solid rgb(170, 170, 170);
+                @media screen and (max-width: $layout-breakpoints-xxs) {
+                    padding-right: 7px;
+                    margin: 5px 5px 5px 0px;
+                }
             }
         }
         span {
@@ -48,6 +52,12 @@ header {
                         }
                     }
                 }
+            }
+        }
+        @media screen and (max-width: $layout-breakpoints-xxs) {
+            .res {
+                margin-top: -33px !important;
+                margin-bottom: -10px !important;
             }
         }
         @media screen and (max-width: $layout-breakpoints-xs) {
