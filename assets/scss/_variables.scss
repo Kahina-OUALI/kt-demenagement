@@ -283,3 +283,22 @@ section {
     background-color: $blue-one;
     font-family: $title;
 }
+
+%input {
+    font-size: 12px;
+    font-weight: 400;
+    color: $white-one;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    border: 0.5px solid #2e2e2e;
+    background-color: transparent;
+    font-family: $text;
+}
+%label {
+    font-size: 15px;
+    color: $white-one;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: $title;
+}
