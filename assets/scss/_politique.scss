@@ -1,0 +1,73 @@
+.politique {
+    .intro-politique {
+        h1 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $white-one;
+        font-weight: 600;
+        padding-left: 15px;
+        letter-spacing: 4px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-size: 18px !important;
+        margin-bottom: 30px !important;
+        border-left: 3px solid $blue-one;
+        font-family: $title;
+        @media screen and (max-width: $layout-breakpoints-xxs) {
+            font-size: 20px !important;
+        }
+    }
+    p { 
+        margin-bottom: 50px;
+        color: $white;
+    }
+}
+
+.faq {
+    .intro-faq {
+        padding: 80px 0px 80px 0px;
+        background-color: $black;
+        h1 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+    .part-f {
+        padding: 80px 0px 80px 0px;
+        .accordion-item {
+            border: 0.5px solid $blue-two;
+            background-color: transparent !important;
+            .accordion-header {
+                .accordion-button:not(.collapsed) {
+                    color: $blue-one;
+                    background-color: $blue-two;
+                }
+                .accordion-button:not(.collapsed)::after {
+                    content: "↓";
+                    font-size: 15px;
+                    background-image: none !important;
+                }
+            }
+            .accordion-body {
+                @extend %text-light;
+            }
+        }
+        @media screen and (max-width: $layout-breakpoints-xxs) {
+            padding: 40px 0px 40px 0px;
+        }
+    }  
+    @media screen and (max-width: $layout-breakpoints-xxs) {
+        padding: 40px 0px 40px 0px;
+    }
+    h2 {
+        padding-left: 0px !important;
+        border-left: none !important;
+    }
+}
