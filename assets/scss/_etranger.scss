@@ -1,0 +1,97 @@
+.body-etranger {
+    height: 180vh;
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-image: url("../img/etranger/etranger.png");
+}
+.intro-etranger {
+    .content {
+        padding: 55px;
+        margin: 120px 0px 120px 0px;
+        background-color: #090808a6;
+        .text {
+            h1 {
+                margin-bottom: 45px;
+            }
+            p {
+                margin-bottom: 35px;
+            }
+        }
+    }
+    @media screen and (max-width: $layout-breakpoints-xxs) {
+        .content {
+            margin: 60px 0px 60px 0px;
+            padding: 45px 25px 45px 25px;
+        }
+    }
+}
+.sec-e {
+    padding: 75px 0px 75px 0px;
+    background-color: $black;
+    h2 {
+        margin-bottom: 30px;
+    }
+    @media screen and (max-width: $layout-breakpoints-xxs) {
+        padding: 45px 0px 0px 0px;
+        .content {
+            padding: 20px !important;
+        }
+    }
+}
+.partie-1,
+.partie-3,
+.partie-5 {
+    background-color: $black;
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin-bottom: 25px;
+    }
+    .content {
+        margin: 0% 0% 0% 15%;
+    }
+    @media screen and (max-width: $layout-breakpoints-xxs) {
+        padding: 75px 0px 0px 0px;
+        .content {
+            margin: 0% !important;
+            padding: 20px 20px 20px 20px !important;
+        }
+    }
+    @media screen and (max-width: $layout-breakpoints-sm) {
+       .content {
+           margin: 0% 0% 0% 5%;
+       }
+    }
+}
+.partie-2,
+.partie-4 {
+    background-color: $black;
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    h2,
+    h3 {
+        margin-bottom: 25px;
+    }
+    .content {
+        margin: 0% 15% 0% 0%;
+    }
+    @media screen and (max-width: $layout-breakpoints-xxs) {
+        padding: 0px 0px 0px 0px;
+        .content {
+            margin: 0% !important;
+            padding: 20px 20px 20px 20px !important;
+        }
+    }
+    @media screen and (max-width: $layout-breakpoints-sm) {
+        .content {
+            margin: 0% 5% 0% 0%;
+        }
+     }
+}
