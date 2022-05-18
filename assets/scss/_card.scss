@@ -25,3 +25,58 @@
         box-shadow: 15px 15px 10px rgba(36, 36, 36, 0.589);
     }
 }
+.formules {
+    padding: 120px 0px 120px 0px;
+}
+.card-formules {
+    cursor: pointer;
+    transition: 0.5s;
+    border: 0.5px solid $blue-one;
+    background-color: transparent;
+    padding: 30px;
+    .card-header {
+        padding-bottom: 20px;
+        background-color: transparent;
+        a {
+            @extend %a-card;
+        }
+    }
+    h5 {
+        @extend %title-card;
+        text-align: center
+    }
+    h6 {
+        text-align: center;
+        margin-top: 30px;
+        @extend %price;
+    }
+    nav {
+        ul {
+            li {
+                text-align: center;
+                a {
+                    @extend %a-price;
+                }
+            }
+        }
+    }
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 10px rgb(0, 0, 0, 0.3);
+    }
+    .card-footer {
+        padding-top: 20px;
+        background-color: transparent;   
+        .btn-one {
+            @extend %button-one;
+        }
+        .btn-two {
+            @extend %button-two;
+        }
+    }
+    @media screen and (max-width: $layout-breakpoints-sm) {
+        h5 {
+            font-size: 11px;
+        }
+    }
+}

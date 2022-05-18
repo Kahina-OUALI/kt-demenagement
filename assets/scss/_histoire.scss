@@ -1,0 +1,49 @@
+.histoire,
+.histoire-3 {
+    .content {
+        padding: 80px 0px 80px 0px;
+        h1 {
+            margin-bottom: 45px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: $layout-breakpoints-sm) {
+        .content {
+            padding: 0px 0px 50px 0px;
+        }
+    }
+}
+.histoire-2 {
+    height: auto;
+    background-size: cover;
+    padding: 80px 0px 80px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-image: url("../img/sommes/deuxieme-b.png");
+    .content {
+        padding: 45px;
+        background-color: #090808a6;
+        p {
+            margin: 45px 0px 45px 0px;
+        }
+    }
+}
+.histoire-4 {
+    height: auto;
+    background-size: cover;
+    padding: 80px 0px 80px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-image: url("../img/sommes/quatrieme.png");
+    .content {
+        padding: 45px;
+        background-color: #090808a6;
+        p {
+            margin: 45px 0px 45px 0px;
+        }
+    }
+}
